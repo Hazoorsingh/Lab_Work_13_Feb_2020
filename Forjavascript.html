@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type='text/javascript'>
+        function square(number)
+        {
+            return number * number
+        }
+
+    </script>
+</head>
+<body>
+    <script>
+        document.write("The square root of 3 is",square(3))    
+    </script>
+    <script>
+        let i=3;
+        document.write('<table style="width:100%">')
+        for(;i<100;)
+        {
+            document.write('<tr><th>' +i,'</th>')
+            document.write('<th>', +square(i++),'</th></tr>')
+        }
+        document.write('</table>')
+    </script>
+</body>
+</html>
